@@ -1,4 +1,3 @@
-#!/usr/bin/env runaiida
 # -*- coding: utf-8 -*-
 
 
@@ -161,7 +160,7 @@ stress_degauss = 0.02
 bands_degauss = 0.02
 bands_scf_kpoints_mesh = [20,20,20] 
 number_of_bands_nelec_units = 2.0  # number_of_bands = (number_of_electrons)*(number_of_bands_nelec_units)
-bands_kpoints = = load_node(int(band_kpoints_pk)) # 6x6x6 with no-offset 
+bands_kpoints = load_node(int(band_kpoints_pk)) # 6x6x6 with no-offset 
 
 # phonon parameters 
 phonon_degauss = 0.02  # Rydberg
