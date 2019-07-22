@@ -5,3 +5,13 @@
 *.swp
 *.py~
 *.md~
+
+# VS Code
+.vscode
+
+# Build
+build/*
+*.so
+
+# efermi module
+sssp_tools/efermi_module*
